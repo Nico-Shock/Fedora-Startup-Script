@@ -10,4 +10,4 @@ This script serves as an introduction to Fedora based Linux distributions. It in
 - Adds Fedora's Free and Non-Free repositories to install more packages like VLC, Steam, etc.
 - Installs Flatpak and adds the complete Flathub repository.
 
-### If your PC does not restart at the end of the script, run the script again to perform a system upgrade, or try entering the command manually, or simply restart your PC.
+### If your PC does not restart at the end of the script, run the script again to perform a system upgrade, or try entering the command manually, or simply try to restart your PC.
