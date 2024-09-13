@@ -28,10 +28,11 @@ upgrade_system_version() {
         if sudo dnf system-upgrade download --releasever=$releasever -y; then
             touch "$upgrade_flag_file"
             log "System-Upgrade auf Version $releasever geplant. Ein Neustart wird durchgeführt, um das Upgrade abzuschließen."
-            return 0
+            sudo dnf system-upgrade reboot
+            exit 0
         else
             log "System-Upgrade auf Version $releasever fehlgeschlagen."
-            return 1
+            exit 1
         fi
     fi
 }
