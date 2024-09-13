@@ -9,3 +9,5 @@ This script serves as an introduction to Fedora based Linux distributions. It in
 - Removes GNOME Contacts, GNOME Maps, MediaWriter, Totem, Simple Scan, GNOME Boxes, GNOME User Docs, Rhythmbox, Evince, Eye of GNOME, GNOME Photos, GNOME Documents, GNOME Initial Setup, Yelp, Winhelp32, DOSBox, WineHelp, Fedora Release Notes, Firefox, GNOME Characters, GNOME Logs, Fonts Tweak Tool, Timeshift, Epiphany, GNOME Weather, Cheese, PulseAudio Volume Control, and Qt5 Settings.
 - Adds Fedora's Free and Non-Free repositories to install more packages like VLC, Steam, etc.
 - Installs Flatpak and adds the complete Flathub repository.
+
+### If your PC does not restart at the end of the script, run the script again to perform a system upgrade, or try entering the command manually, or simply restart your PC.
