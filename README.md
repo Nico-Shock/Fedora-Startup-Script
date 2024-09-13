@@ -1,0 +1,1 @@
+This script serves as an introduction to Fedora based Linux distributions. It installs the essential components, speeds up the system, cleans it up, and always upgrades the system to the latest version.
